@@ -18,7 +18,7 @@ export const routes = [
 		name: 'test1',
 		component: () => import('@/pages/test1/index.vue'),
 		meta: {
-			title: '首页',
+			title: '测试1',
 		},
   },
   {
@@ -26,7 +26,7 @@ export const routes = [
 		name: 'test2',
 		component: () => import('@/pages/test2/index.vue'),
 		meta: {
-			title: '首页',
+			title: '测试2',
 		},
   },
   {
@@ -34,7 +34,7 @@ export const routes = [
 		name: 'test3',
 		component: () => import('@/pages/test3/index.vue'),
 		meta: {
-			title: '首页',
+			title: '测试3',
 		},
   },
   {
@@ -42,7 +42,7 @@ export const routes = [
 		name: 'test4',
 		component: () => import('@/pages/test4/index.vue'),
 		meta: {
-			title: '首页',
+			title: '测试4',
 		},
   },
 ];

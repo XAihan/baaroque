@@ -1,0 +1,15 @@
+// vant组件库样式覆盖
+.van-popup{
+  border-radius: 8px;
+}
+.van-toast{
+  padding: 12px 16px !important;
+}
+.van-dialog__message--justify{
+  text-align: justify;
+}
+.nowrap{
+  .van-toast__text{
+    white-space: nowrap;
+  }
+}
